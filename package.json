@@ -1,0 +1,15 @@
+{
+  "name": "qlub-crm-hackathon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static hackathon build of the Qlub CRM on mock data",
+  "scripts": {
+    "start": "serve -s . -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "overrides": {
+    "compression": "1.8.2"
+  }
+}
